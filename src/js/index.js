@@ -3463,28 +3463,28 @@
         {
             name: "BCZ - Bitcoin CZ",
             onSelect: function() {
-                network = libs.bitcoin.networks.zencash;
+                network = libs.bitcoin.networks.bcz;
                 setHdCoin(119);
             },
         },   
         {
             name: "BZX - Bitcoin Zero",
             onSelect: function() {
-                network = libs.bitcoin.networks.zencash;
+                network = libs.bitcoin.networks.bzx;
                 setHdCoin(136);
             },
         },
         {
             name: "GXX - GravityCoin",
             onSelect: function() {
-                network = libs.bitcoin.networks.zencash;
+                network = libs.bitcoin.networks.gxx;
                 setHdCoin(136);
             },
         },
         {
             name: "SAPP - Sapphire",
             onSelect: function() {
-                network = libs.bitcoin.networks.zencash;
+                network = libs.bitcoin.networks.sapp;
                 setHdCoin(119);
             },
         },
