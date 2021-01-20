@@ -3460,6 +3460,34 @@
                 setHdCoin(121);
             },
         },
+        {
+            name: "BCZ - Bitcoin CZ",
+            onSelect: function() {
+                network = libs.bitcoin.networks.zencash;
+                setHdCoin(119);
+            },
+        },   
+        {
+            name: "BZX - Bitcoin Zero",
+            onSelect: function() {
+                network = libs.bitcoin.networks.zencash;
+                setHdCoin(136);
+            },
+        },
+        {
+            name: "GXX - GravityCoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.zencash;
+                setHdCoin(136);
+            },
+        },
+        {
+            name: "SAPP - Sapphire",
+            onSelect: function() {
+                network = libs.bitcoin.networks.zencash;
+                setHdCoin(119);
+            },
+        },
     ]
 
     var clients = [

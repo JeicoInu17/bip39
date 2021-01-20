@@ -1,3 +1,47 @@
+libs.bitcoin.networks.gxx = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x28,
+  scriptHash: 0xA,
+  wif: 0xD2
+};
+
+libs.bitcoin.networks.bzx = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x4B,
+  scriptHash: 0x22,
+  wif: 0xD2
+};
+
+libs.bitcoin.networks.bcz = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x19,
+  scriptHash: 0x14,
+  wif: 0xD2
+};
+
+libs.bitcoin.networks.sapp = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x022D2563,
+    private: 0x0221312B
+  },
+  pubKeyHash: 0x3F,
+  scriptHash: 0x12,
+  wif: 0x19
+};
+
 libs.bitcoin.networks.chnd1 = {
   messagePrefix: 'unused',
   bip32: {
